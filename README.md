@@ -21,7 +21,7 @@ python predict.py --yolo_weight weights/yolo11n.pt --seg_encoder_weight weights/
 ### Training
 **1. Install YOLO Packages:**
 ```shell
-pip install ultralytics==8.0.224
+pip install ultralytics
 ```
 **2. Run Training Script:**
 ```shell
