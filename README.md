@@ -1,5 +1,4 @@
 ## Documentation 📑
-> This is about the organoid/organ-on-a-chip intelligent segmentation algorithm.
 
 ## Usage
 #### Environment Setup
