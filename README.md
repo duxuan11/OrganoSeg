@@ -16,9 +16,17 @@ cd Precision-Organoid-Segmentation-Technique-POST
 ### Prediction
 
 ```shell
-python predict.py --yolo_weight weights/yolon.pt --seg_encoder_weight weights/sam_encoder.onnx --seg_decoder_weight weights/sam_decoder.onnx --img_path img/example1.tiff
+python predict.py --yolo_weight weights/yolo11n.pt --seg_encoder_weight weights/sam_encoder.onnx --seg_decoder_weight weights/sam_decoder.onnx --img_path img/example1.tiff
 ```
 ### Training
+**1. Install YOLO Packages:**
+```shell
+pip install ultralytics==8.0.224
+```
+**2. Run Training Script:**
+```shell
+python train.py --model_path weights/yolo11n.pt --data_path_yaml config.yaml --epochs 100 --img_size 1024 --batch_size 16
+```
 You can refer to the training process of [yolov11](https://github.com/ultralytics/ultralytics). Then use these trained models in this code.
 
 ### Download
