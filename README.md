@@ -9,8 +9,8 @@ pip install -r requirements.txt
 ```
 **2. Clone and Install this repository:**
 ```bash
-git clone https://github.com/duxuan11/Precision-Organoid-Segmentation-Technique-POST.git
-cd Precision-Organoid-Segmentation-Technique-POST
+git clone https://github.com/duxuan11/OrganoSeg.git
+cd OrganoSeg
 ```
 ### Prediction
 
